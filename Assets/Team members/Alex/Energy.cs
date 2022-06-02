@@ -16,6 +16,7 @@ public class Energy : MonoBehaviour
     void Start()
     {
         CheckEnergyMax();
+
     }
 
     // Update is called once per frame
