@@ -297,8 +297,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 623806664}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -18.65, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -3.69, y: 0, z: 0}
+  m_LocalScale: {x: 0.20537, y: 2.9447, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -482,7 +482,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _serializedExposedParameters: []
-  _boundGraphSerialization: '{"type":"NodeCanvas.BehaviourTrees.BehaviourTree","nodes":[{"_position":{"x":920.0,"y":340.0},"$type":"NodeCanvas.BehaviourTrees.Sequencer","$id":"0"},{"_condition":{"checkValue":{"_type":"System.Single","_value":{"$content":10.0,"$type":"System.Single"}},"comparison":2,"field":{"_baseInfo":"Ollie.BTTest|distance"},"$type":"NodeCanvas.Tasks.Conditions.CheckField","$version":1},"_position":{"x":540.0,"y":400.0},"$type":"NodeCanvas.BehaviourTrees.ConditionNode","$id":"1"},{"_action":{"log":{"_value":"I''m
+  _boundGraphSerialization: '{"type":"NodeCanvas.BehaviourTrees.BehaviourTree","nodes":[{"_position":{"x":920.0,"y":340.0},"$type":"NodeCanvas.BehaviourTrees.Sequencer","$id":"0"},{"_condition":{"checkValue":{"_type":"System.Single","_value":{"$content":1.5,"$type":"System.Single"}},"comparison":2,"field":{"_baseInfo":"Ollie.BTTest|distance"},"$type":"NodeCanvas.Tasks.Conditions.CheckField","$version":1},"_position":{"x":540.0,"y":400.0},"$type":"NodeCanvas.BehaviourTrees.ConditionNode","$id":"1"},{"_action":{"log":{"_value":"I''m
     at a door!"},"$type":"NodeCanvas.Tasks.Actions.DebugLogText"},"_position":{"x":700.0,"y":400.0},"$type":"NodeCanvas.BehaviourTrees.ActionNode","$id":"2"},{"_position":{"x":920.0,"y":420.0},"$type":"NodeCanvas.BehaviourTrees.Selector","$id":"3"},{"_condition":{"valueA":{"_name":"doorisOpen","_targetVariableID":"5046ea08-d3be-449a-b4dc-10ac75bb14f4"},"valueB":{"_value":true},"$type":"NodeCanvas.Tasks.Conditions.CheckBoolean"},"_position":{"x":720.0,"y":480.0},"$type":"NodeCanvas.BehaviourTrees.ConditionNode","$id":"4"},{"_position":{"x":920.0,"y":480.0},"$type":"NodeCanvas.BehaviourTrees.Sequencer","$id":"5"},{"_condition":{"valueA":{"_name":"doorisOpen","_targetVariableID":"5046ea08-d3be-449a-b4dc-10ac75bb14f4"},"valueB":{},"$type":"NodeCanvas.Tasks.Conditions.CheckBoolean"},"_position":{"x":820.0,"y":560.0},"$type":"NodeCanvas.BehaviourTrees.ConditionNode","$id":"6"},{"_position":{"x":1000.0,"y":580.0},"$type":"NodeCanvas.BehaviourTrees.Selector","$id":"7"},{"_position":{"x":760.0,"y":640.0},"$type":"NodeCanvas.BehaviourTrees.Sequencer","$id":"8"},{"_condition":{"valueA":{"_name":"doorUnlocked","_targetVariableID":"118deb18-33cf-4043-b1a6-eab79200511c"},"valueB":{"_value":true},"$type":"NodeCanvas.Tasks.Conditions.CheckBoolean"},"_position":{"x":280.0,"y":720.0},"$type":"NodeCanvas.BehaviourTrees.ConditionNode","$id":"9"},{"_action":{"log":{"_value":"The
     door is unlocked!"},"$type":"NodeCanvas.Tasks.Actions.DebugLogText"},"_position":{"x":480.0,"y":720.0},"$type":"NodeCanvas.BehaviourTrees.ActionNode","$id":"10"},{"_position":{"x":1040.0,"y":640.0},"$type":"NodeCanvas.BehaviourTrees.Sequencer","$id":"11"},{"_action":{"log":{"_value":"The
     door is locked!"},"$type":"NodeCanvas.Tasks.Actions.DebugLogText"},"_position":{"x":780.0,"y":720.0},"$type":"NodeCanvas.BehaviourTrees.ActionNode","$id":"12"},{"_position":{"x":1020.0,"y":720.0},"$type":"NodeCanvas.BehaviourTrees.Selector","$id":"13"},{"_position":{"x":960.0,"y":800.0},"$type":"NodeCanvas.BehaviourTrees.Sequencer","$id":"14"},{"_condition":{"valueA":{"_name":"haveKey","_targetVariableID":"00d98aea-c930-46aa-8a98-af865a69b62c"},"valueB":{"_value":true},"$type":"NodeCanvas.Tasks.Conditions.CheckBoolean"},"_position":{"x":780.0,"y":920.0},"$type":"NodeCanvas.BehaviourTrees.ConditionNode","$id":"15"},{"_action":{"log":{"_value":"I
